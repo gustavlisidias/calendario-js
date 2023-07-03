@@ -1,0 +1,39 @@
+#calendar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#calendar a {
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+
+#calendar table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#calendar table thead {
+    background-color: #8a0015;
+    color: #fff;
+}
+
+#calendar th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+#calendar .ativo {
+    background-color: #8a0015 !important;
+}
+
+#calendar .ativo a {
+    color: #fff !important;
+}
+
+#btn-calendar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
